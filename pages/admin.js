@@ -30,7 +30,7 @@ export default function Admin() {
       }
     }
 
-    const { error } = await supabase.from('videos1').insert(dataToInsert);
+    const { error } = await supabase.from('videos2').insert(dataToInsert);
     
     if (error) {
       alert("Error: " + error.message);
