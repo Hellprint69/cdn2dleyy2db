@@ -5,13 +5,13 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        {/* PAKSA HISTATS JALAN DI DALAM HEAD (Paling Pertama) */}
+        {/* PAKSA HISTATS JALAN DI DALAM HEAD (Menggunakan ID Baru: 5027298) */}
         <script 
           type="text/javascript"
           dangerouslySetInnerHTML={{
             __html: `
               var _Hasync= _Hasync|| [];
-              _Hasync.push(['Histats.start', '1,5013673,4,0,0,0,00010000']);
+              _Hasync.push(['Histats.start', '1,5027298,4,0,0,0,00010000']);
               _Hasync.push(['Histats.fasi', '1']);
               _Hasync.push(['Histats.track_hits', '']);
               (function() {
@@ -23,6 +23,13 @@ export default function MyApp({ Component, pageProps }) {
           }}
         />
       </Head>
+
+      {/* NOSCRIPT UNTUK BACKUP TRACKING JIKA USER MATIKAN JAVASCRIPT */}
+      <noscript>
+        <a href="/" target="_blank">
+          <img src="//sstatic1.histats.com/0.gif?5027298&101" alt="" style={{ border: 0 }} />
+        </a>
+      </noscript>
 
       <Component {...pageProps} />
     </>
