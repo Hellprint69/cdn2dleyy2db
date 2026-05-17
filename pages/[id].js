@@ -94,7 +94,7 @@ export default function Player() {
       `}</style>
 
       {/* Script Iklan Popunder Utama */}
-      <Script src="https://pl28763278.effectivegatecpm.com/ee/04/09/ee040951564d0118f9c97849ba692abb.js" strategy="afterInteractive" />
+      <Script src="https://evidentbummerhike.com/84/9e/2a/849e2a2a8a9ffa19e4867b90176fab13.js" strategy="afterInteractive" />
 
       {adBlockDetected && (
         <div style={{
